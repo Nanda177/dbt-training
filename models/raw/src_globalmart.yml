@@ -5,5 +5,12 @@ sources:
     schema: globalmart
     tables:
       - name: orders
+        columns:
+          - name: orederid 
+            tests:
+              - not_null
+              - unique
       - name: product
       - name: customers
+       
+         
