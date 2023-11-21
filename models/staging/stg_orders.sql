@@ -4,7 +4,7 @@ o.orederid,
 o.orderdate,
 o.shipdate,
 o.shipmode,
-ordersellingprice-ordercostprice as orders_profit,
+o.ordersellingprice-o.ordercostprice as orders_profit,
 --from raw customers
 c.customerid,
 c.customername,
